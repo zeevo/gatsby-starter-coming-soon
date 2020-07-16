@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "name": "gatsby-coming-soon-starter",
+  "description": "",
+  "main": "n/a",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
+    "prettier": "prettier --write '{,!(node_modules|assets)/**/}*.js*'"
+  },
+  "repository": "git+https://github.com/zeevosec/gatsby-starter-zeevo",
+  "keywords": [
+    "gatsby",
+    "blog",
+    "react",
+    "theme",
+    "starter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.19.7",
+    "gatsby-plugin-manifest": "^2.4.18",
+    "html-react-parser": "^0.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.19.1"
+  }
+}
